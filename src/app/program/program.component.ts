@@ -168,7 +168,7 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </div>
     </div>
-   
+    <app-footer></app-footer>
   `,
   styles: [
       `

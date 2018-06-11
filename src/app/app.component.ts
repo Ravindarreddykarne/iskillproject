@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   <div class="reddy">
     <router-outlet></router-outlet>
  </div>
-
+ 
   `,
   styles: [
     `

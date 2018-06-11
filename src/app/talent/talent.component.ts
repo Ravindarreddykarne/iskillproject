@@ -36,7 +36,7 @@ import {PersonsService} from '../persons.service';
           
              <div class="action">
             <button class="add-to-cart btn btn-default" type="button">Hire {{person.name}}</button>
-            
+            <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
             <a [routerLink] ="['/talent' ,person._id]" (click)="talent(book)" class="add-to-cart btn btn-default">Know more</a>
           </div>
         </div>
@@ -47,7 +47,7 @@ import {PersonsService} from '../persons.service';
   </ng-container>
 </div>
 
-
+<app-footer></app-footer>
 
 
 
@@ -186,7 +186,7 @@ import {PersonsService} from '../persons.service';
           transition: background .3s ease; }
   .add-to-cart:hover, .like:hover {
     background: #b36800;
-    margin-left: 10px;
+    
     color: #fff; }
 
 .not-available {

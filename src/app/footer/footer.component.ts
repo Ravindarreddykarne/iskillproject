@@ -3,63 +3,86 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-footer',
   template: `
-  <div class="footer-bottom">
+  <div class="footer">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-6 ">
-        <div class="copyright-text">
-          <p>CopyRight © 2017 Digital All Rights Reserved</p>
-        </div>
-      </div> 
-      <div class="col-sm-6  ">
-          <div class="copyright-text pull-right">
-          <p> <a href="#">Home</a> | <a href="#">Privacy</a> |<a href="#">Terms & Conditions</a> | <a href="#">Refund Policy</a> </p>
-        </div>					
-                    
-      </div> 
-    </div>
+          <a href='#'><i class="fa fa-twitch fa-3x fa-fw"></i></a>
+          <a href='#'><i class="fa fa-facebook fa-3x fa-fw"></i></a>
+          <a href='#'><i class="fa fa-twitter fa-3x fa-fw"></i></a>
+          <a href='#'><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
+          <a href='#'><i class="fa fa-rss fa-3x fa-fw"></i></a>
+          <a href='#'><i class="fa fa-vine fa-3x fa-fw"></i></a>
+          <a href='#'><i class="fa fa-flickr fa-3x fa-fw"></i></a>
+          <a href='#'><i class="fa fa-linkedin fa-3x fa-fw"></i></a>
+     
   </div>
 </div>
 
   `,
   styles: [
     `
-    .footer-bottom {
-     
-      left: 0;
+ 
+    
+    body {
+      margin-bottom: 150px;
+    }
+    
+    .footer {
+      
       bottom: 0;
       width: 100%;
-      padding-bottom: 25px;
-      border-top: 1px solid #2f2f33 ;
-      background: #1e1d22  ;
-
-  }
-  .copyright-text p {
-      color:#ffffff;
-      margin-top: 18px;
-      margin-bottom: 0;
-      font-size:15px;
+      height: 120px;
     
-  }
-  
-  .copyright-text a {
-      color:#ffffff;
-      margin: 0px 10px 0px 10px;
-      
-  }
-  .copyright-text a:hover {
-      color: #aece61  ;
-      
-      
-  }
-  /* Social Icons */
-  
-  
-   .img10{
-      vertical-align: middle;
-      width: 69%;
-      margin-top: -71px;
-   }
+      text-align: center;
+    }
+    
+    .container{
+      margin-top: 50px;
+      color: #fff;
+      width: 100%;
+    }
+    
+    .fa-twitter {
+        color: #4099FF;
+    }
+    
+    .fa-facebook {
+        color: #3B5998;
+    }
+    
+    .fa-youtube-play {
+        color: #e52d27;
+    }
+    
+    .fa-rss {
+        color: #FF6600;
+    }
+    
+    .fa-vine {
+        color: #00a478;
+    }
+    
+    .fa-flickr {
+        color: #ff0084;
+    }
+    
+    .fa-twitch {
+        color: #6441A5;
+    }
+    
+    .fa-linkedin {
+        color: #007bb6;
+    }
+    
+    .fa {
+        opacity: 0.7;
+        transition: 1s;
+        -webkit-transition: 1s;
+    }
+    
+    .fa:hover{
+        opacity: 1;
+        transition: 1s;
+        -webkit-transition: 1s;
 
     `
   ]

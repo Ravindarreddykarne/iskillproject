@@ -80,7 +80,7 @@ You just want to get more salary in with newly acquired skil sets</li>
  
 
        </div>
-    
+   <app-footer></app-footer>
   `,
   styles: [
     `

@@ -26,9 +26,9 @@ import { map } from 'rxjs/operators';
          </div>
       </div>
   </div>
-</div>
-</div>
 
+</div>
+</div>
 </div>
   
 <hr>  
@@ -37,8 +37,8 @@ import { map } from 'rxjs/operators';
 </div>             
 <br>
 <br>
-  
-            
+
+
                   
 
 
@@ -63,6 +63,9 @@ import { map } from 'rxjs/operators';
     div.row{
       margin-right: -210px;
       margin-left: 135px;
+    }
+    hr{
+      width: 135%;
     }
     `
   ]
